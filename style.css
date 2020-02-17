@@ -36,8 +36,9 @@ body {
 .bar-left a {
     width: 100%;
 }
-.bar-left img {
+.bar-left a img {
     width: 80%;
+    height: auto;
     margin: 0 10%;
     opacity: 0.7;
 }
@@ -50,7 +51,7 @@ body {
 .bar-middle a {
     width: 100%;
 }
-.bar-middle img {
+.bar-middle a img {
     opacity: 1;
     width: 100%;
 }
