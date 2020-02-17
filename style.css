@@ -169,3 +169,18 @@ footer p {
     letter-spacing: 2px;
     font-family: 'Sawarabi Gothic', sans-serif;
 }
+
+@media screen and (max-width: 900px) {
+    .apex-start {
+        margin: 0;
+        background-size: contain;
+        background-position: top;
+        height: 580px;
+    }
+    .bar {
+        background: linear-gradient(#505050,#000000);
+    }
+    footer {
+        padding: auto;
+    }
+}
