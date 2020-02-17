@@ -189,6 +189,10 @@ footer p {
     footer {
         padding: 10% 5%;
     }
+    .bar-left img {
+        width: 80%;
+        opacity: 0.7;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -199,6 +203,10 @@ footer p {
         margin: 0;
         background-size: contain;
         height: 490px;
+    }
+    .bar-left img {
+        width: 80%;
+        opacity: 0.7;
     }
     footer {
         padding: 10% 5%;
@@ -212,6 +220,10 @@ footer p {
         margin: 0;
         background-size: contain;
         height: 450px;
+    }
+    .bar-left img {
+        width: 80%;
+        opacity: 0.7;
     }
     footer {
         padding: 10% 5%;
