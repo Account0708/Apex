@@ -5,6 +5,9 @@
 body {
     background: #000000;
 }
+.apex {
+    background: #000000;
+}
 .apex-start {
     display: flex;
     justify-content: center;
@@ -17,7 +20,7 @@ body {
 .bar {
     background:linear-gradient(#333333,#000000);
     min-height: 70%;
-    max-height: 80%;
+    max-height: 100%;
     height: 700px;
     width: 31%;
     opacity: 0.9;
@@ -83,7 +86,7 @@ body {
 @keyframes banner1 {
     0% {
         background: #000000;
-        height: 700px;
+        height: 100%;
     }
     12.5% {
         height: 0;
@@ -99,21 +102,21 @@ body {
     }
     83.5% {
         background: #000000;
-        height: 700px;
+        height: 100%;
     }
     90% {
         background: #000000;
-        height: 700px;
+        height: 100%;
     }
 }
 @keyframes banner2 {
     0% {
         background: #000000;
-        height: 700px;
+        height: 100%;
     }
     10.5% {
         background: #000000;
-        height: 700px;
+        height: 100%;
     }
     23% {
         height: 0;
@@ -126,21 +129,21 @@ body {
     }
     73% {
         background: #000000;
-        height: 700px;
+        height: 100%;
     }
     90% {
         background: #000000;
-        height: 700px;
+        height: 100%;
     }
 }
 @keyframes banner3 {
     0% {
         background: #000000;
-        height: 700px;
+        height: 100%;
     }
     21% {
         background: #000000;
-        height: 700px;
+        height: 100%;
     }
     33.5% {
         height: 0;
@@ -150,11 +153,11 @@ body {
     }
     62.5% {
         background: #000000;
-        height: 700px;
+        height: 100%;
     }
     90% {
         background: #000000;
-        height: 700px;
+        height: 100%;
     }
 }
 footer {
@@ -169,18 +172,48 @@ footer p {
     letter-spacing: 2px;
     font-family: 'Sawarabi Gothic', sans-serif;
 }
+@media screen and (max-width: 1024px) {
+    body {
+        background: #333333;
+    }
+}
 
 @media screen and (max-width: 900px) {
+    body {
+        background: #333333;
+    }
     .apex-start {
         margin: 0;
         background-size: contain;
-        background-position: top;
-        height: 580px;
-    }
-    .bar {
-        background: linear-gradient(#505050,#000000);
     }
     footer {
-        padding: auto;
+        padding: 10% 5%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        background: #333333;
+    }
+    .apex-start {
+        margin: 0;
+        background-size: contain;
+        height: 490px;
+    }
+    footer {
+        padding: 10% 5%;
+    }
+}
+@media screen and (max-width: 350px) {
+    body {
+        background: #333333;
+    }
+    .apex-start {
+        margin: 0;
+        background-size: contain;
+        height: 450px;
+    }
+    footer {
+        padding: 10% 5%;
     }
 }
