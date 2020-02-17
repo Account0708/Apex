@@ -34,12 +34,11 @@ body {
     flex-direction: column;
 }
 .bar-left a {
-    display: flex;
-    justify-content: center;
     width: 100%;
 }
 .bar-left img {
     width: 80%;
+    margin: 0 10%;
     opacity: 0.7;
 }
 .bar-middle {
