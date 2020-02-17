@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: #000000;
+}
+.apex-start {
+    display: flex;
+    justify-content: center;
+    margin: 0 10%;
+    background: url(./img/apex-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40rem;
+}
+.bar {
+    background:linear-gradient(#333333,#000000);
+    min-height: 70%;
+    max-height: 80%;
+    height: 700px;
+    width: 31%;
+    opacity: 0.9;
+    position: relative;
+}
+.bar-left {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bar-left a {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.bar-left img {
+    width: 80%;
+    opacity: 0.7;
+}
+.bar-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+.bar-middle a {
+    width: 100%;
+}
+.bar-middle img {
+    opacity: 1;
+    width: 100%;
+}
+.bar-right {
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+} 
+.black {
+    width: 3.6%;
+    background: #000000;
+}
+.bar-bottom-right {
+    position: absolute;
+    height: 0;
+    bottom: 0;
+    width: 100%;
+    animation: banner1 8s linear;
+}
+.bar-bottom-middle {
+    position: absolute;
+    height: 0;
+    bottom: 0;
+    width: 100%;
+    animation: banner2 8s linear;
+}
+.bar-bottom-left {
+    position: absolute;
+    height: 0;
+    bottom: 0;
+    width: 100%;
+    animation: banner3 8s linear;
+}
+@keyframes banner1 {
+    0% {
+        background: #000000;
+        height: 700px;
+    }
+    12.5% {
+        height: 0;
+    }
+    50% {
+        height: 0;
+    }
+    62.5% {
+        height: 0px;
+    }
+    71% {
+        height: 0;
+    }
+    83.5% {
+        background: #000000;
+        height: 700px;
+    }
+    90% {
+        background: #000000;
+        height: 700px;
+    }
+}
+@keyframes banner2 {
+    0% {
+        background: #000000;
+        height: 700px;
+    }
+    10.5% {
+        background: #000000;
+        height: 700px;
+    }
+    23% {
+        height: 0;
+    }
+    50% {
+        height: 0;
+    }
+    60.5% {
+        height: 0;
+    }
+    73% {
+        background: #000000;
+        height: 700px;
+    }
+    90% {
+        background: #000000;
+        height: 700px;
+    }
+}
+@keyframes banner3 {
+    0% {
+        background: #000000;
+        height: 700px;
+    }
+    21% {
+        background: #000000;
+        height: 700px;
+    }
+    33.5% {
+        height: 0;
+    }
+    50% {
+        height: 0;
+    }
+    62.5% {
+        background: #000000;
+        height: 700px;
+    }
+    90% {
+        background: #000000;
+        height: 700px;
+    }
+}
+footer {
+    background: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+footer p {
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Sawarabi Gothic', sans-serif;
+}
